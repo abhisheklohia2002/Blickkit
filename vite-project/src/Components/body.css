@@ -1,0 +1,96 @@
+.body{
+    box-sizing: border-box;
+    background-color: aqua;
+    margin: 0px 175px 0px 175px ;
+}
+
+
+.img_body >img{
+    width: 80vw;
+    height: auto;
+    
+}
+.img_banner{
+   /* border: 2px solid black; */
+   width: 24vw;
+   border-radius: 20px;
+   margin: 0.5vw;
+}
+.banner_flex{
+    display: flex;
+    justify-content: space-around;
+    overflow-x: scroll;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; 
+  overflow-y: scroll;
+}
+.banner_flex::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+
+.form_login{
+    border: 2px solid lightgray;
+    text-align: center;
+    padding-top: 2vw;
+    width: 35vw;
+    height: 21vw;
+    margin: auto;
+    background-color: azure;
+}
+  .textinput{
+    font-size: 18px;
+    padding-left: 2vw;
+    padding-top: 0.5vw;
+    border-radius: 2px ;
+    margin-bottom: 1vw;
+  }
+  .img_login{
+    width: 5vw;
+  }
+  .login_logo{
+    text-align: center;
+    margin-bottom: 2vh;
+    margin-top: 5vw;
+  }
+  .header{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1vw;
+  }
+
+  .login_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 10px 0px 10px ;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .label{
+    /* border: 2px solid black; */
+    width: 10vw;
+    font-size: 1.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-left: 3.3vw;
+    text-align: left;
+  }
+  .addCartheader{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8vw;
+    margin-bottom: 1.5vw;
+    margin-top: 1vw;
+  }
+
+  .cart_body{
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    justify-content: space-around;
+    
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; 
+  }
+
+  .cart_body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }

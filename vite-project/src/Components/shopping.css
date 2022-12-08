@@ -1,0 +1,19 @@
+.shopping_bag{
+    border: 2px solid black;
+    margin: 5vw 10vw 0vw 10vw;
+    overflow-y: scroll;
+}
+.shopping_bag::-webkit-scrollbar{
+    display: none ;
+}
+
+.product_item{
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+}
+.AddToSubtract > input{
+    width: 3.5vw;
+    margin-left: 5px ;
+    margin-right: 5px ;
+}

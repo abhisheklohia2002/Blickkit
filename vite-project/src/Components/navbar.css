@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+}
+.main_nav{
+    justify-content:space-evenly;
+    display: flex;
+}
+
+.img_nav{
+    display: flex;
+    padding-top: 1vw;
+
+}
+
+.img_nav > div > img{
+    width: 6.3vw;
+    height: 6vw;
+
+
+}
+.img_nav > div{
+width: 12vw;
+/* border: 2px solid black; */
+margin-left: 0.5vw;
+text-align: center;
+}
+.p{
+padding-top: 1.8vw;
+padding-left: 2vw;
+font-size: 17.3px;font-family: Arial, Helvetica, sans-serif;font-weight: 700;
+}
+
+.p >input{
+    background-color: lightgray;
+    border-radius: 1vw;
+    border: none;
+}
+
+.second_nav{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+    width: 75vw;
+    padding-top: 2vw;
+
+}
+
+.input_nav{
+    width: 40vw;
+    height: 2.8vw;
+    padding-left: 3.5vw;
+    font-size: 15px;
+    color: lightgray;
+    border-radius: 6px;
+    border: 2px solid lightgray;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+    /* <button className='btn_nav'>My Cart</button> */
+.btn_nav{
+    height: 2.5vw;
+    width: 7vw;
+    font-size: 1.3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid darkgreen;
+    padding-top: 0.5vw;
+    /* padding-left: 0.5vw; */
+    background-color: darkgreen;
+    border-radius: 5px;
+    color: white;
+
+}
